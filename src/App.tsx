@@ -16,8 +16,11 @@ function App() {
   return (
     <>
       <Title level={1}>Contact List on JS</Title>
-      <Link href="https://reactjs.org" target="_blank">
-        Ссылкааа
+      <Link
+        href="https://github.com/Danilket/list-project-test"
+        target="_blank"
+      >
+        Ссылка на GitHub
       </Link>
       <InputsList></InputsList>
       <LettersList></LettersList>
