@@ -1,0 +1,16 @@
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.delete {
+    margin-bottom: 5px;
+}

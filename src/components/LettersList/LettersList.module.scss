@@ -1,0 +1,62 @@
+.lists {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-top: 20px;
+}
+
+.list {
+    width: 250px;
+    font-size: 24px;
+}
+
+.item {
+    background-color: #43BED1;
+    border-bottom: 1px solid black;
+    padding: 8px;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.letterCount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.users {
+    display: none;
+    font-size: 16px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 10px 0;
+
+    &:last-child {
+        border-bottom: 1px solid gray;
+    }
+}
+
+.delete {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible {
+    display: block;
+}
+
+.hasCounter {
+    background-color: lightblue;
+    cursor: pointer;
+}

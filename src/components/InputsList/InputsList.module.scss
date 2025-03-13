@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+}
+
+.item {
+    max-width: 170px;
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.error {
+    color: red;
+}
