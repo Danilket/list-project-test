@@ -17,7 +17,7 @@ function App() {
     <>
       <Title level={1}>Contact List on JS</Title>
       <Link href="https://reactjs.org" target="_blank">
-        Ссылка
+        Ссылкааа
       </Link>
       <InputsList></InputsList>
       <LettersList></LettersList>
